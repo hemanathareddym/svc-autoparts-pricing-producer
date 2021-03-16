@@ -1,0 +1,18 @@
+{
+     "type": "record",
+     "namespace": "com.autoparts.pricingProducer",
+     "name": "PricingRecord",
+     "version": "1",
+     "fields": [
+       { "name": "customer_type", "type": "string", "doc": "Customer type id" },
+       { "name": "price_type", "type": "string", "doc": "price type id" },
+       { "name": "pricing_hierarchy_node_id", "type": "string", "doc": "Pricing hierarchy node id" },
+       { "name": "retail_promo_exclusion", "type": "string", "doc": "Retail promo exclusion flag" },
+       { "name": "pro_promo_exclusion", "type": "string", "doc": "Pro promo exclusion flag" },
+       { "name": "baseline", "type": "string", "default": true, "doc": "baseline" },
+       { "name": "segmentId", "type": "string", "default": true, "doc": "segment id" },
+       { "name": "contractName", "type": "string", "default": true, "doc": "Contract name" },
+       { "name": "tieredDiscountType", "type": "string", "default": true, "doc": "tiered discount type" },
+       { "name": "secondSourceMarginRate", "type": "string", "default": true, "doc": "second source margin rate" }
+     ]
+}

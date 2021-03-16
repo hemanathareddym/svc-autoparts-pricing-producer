@@ -1,0 +1,14 @@
+{
+     "type": "record",
+     "namespace": "com.autoparts.pricingProducer",
+     "name": "PricingMessage",
+     "version": "1",
+     "fields": [
+       { "name": "account_number", "type": "int", "doc": "CAN - Customer account number" },
+       { "name": "ct_id", "type": "string", "doc": "customer type id" },
+       { "name": "pt_id", "type": "string", "doc": "Pricing type id" },
+       { "name": "rtlPromo", "type": "float", "doc": "Retail promo flag" },
+       { "name": "proPromo", "type": "float", "doc": "Pro promo flag" },
+       { "name": "hierarchy_id", "type": "boolean", "default": true, "doc": "Customer/Pricing hierarchy node id" }
+     ]
+}
